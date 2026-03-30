@@ -1,57 +1,56 @@
-# Aula 02: Exercícios de Fixação
+# Lista de Exercícios: Fundamentos de Python
 
-Este repositório contém a resolução dos exercícios da segunda aula do Bootcamp, focada em tipos primitivos, conversão de tipos, tratamento de exceções e estruturas condicionais em Python.
+## Inteiros (`int`)
 
-## 1. Inteiros (`int`)
-
-* **Soma de dois inteiros:** Escreva um programa que soma dois números inteiros inseridos pelo usuário.
-* **Resto da divisão:** Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
-* **Multiplicação:** Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
-* **Divisão inteira:** Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-* **Potenciação:** Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+1. **Soma de Inteiros:** Escreva um programa que soma dois números inteiros inseridos pelo usuário.
+2. **Resto da Divisão:** Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+3. **Multiplicação:** Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+4. **Divisão Inteira:** Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+5. **Quadrado de um Número:** Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
 ---
 
-## 2. Números de Ponto Flutuante (`float`)
+## Números de Ponto Flutuante (`float`)
 
-* **Adição de floats:** Escreva um programa que receba dois números flutuantes e realize sua adição.
-* **Média aritmética:** Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
-* **Potência:** Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
-* **Conversão de temperatura:** Faça um programa que converta a temperatura de Celsius para Fahrenheit.
-* **Cálculo de área:** Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
-
----
-
-## 3. Strings (`str`)
-
-* **Maiúsculas:** Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
-* **Minúsculas:** Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
-* **Limpeza de dados:** Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
-* **Manipulação de datas:** Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-* **Concatenação:** Escreva um programa que concatene duas strings fornecidas pelo usuário.
+6. **Adição de Floats:** Escreva um programa que receba dois números flutuantes e realize sua adição.
+7. **Média Aritmética:** Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+8. **Potência:** Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+9. **Celsius para Fahrenheit:** Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+10. **Área do Círculo:** Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
 ---
 
-## 4. Booleanos (`bool`)
+## Strings (`str`)
 
-* **Lógica AND:** Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
-* **Lógica OR:** Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
-* **Inversão lógica:** Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
-* **Igualdade:** Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
-* **Diferença:** Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+11. **Maiúsculas:** Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+12. **Minúsculas:** Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+13. **Remover Espaços:** Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+14. **Separar Data:** Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+15. **Concatenação:** Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
 ---
 
-## 5. Exercícios de Lógica e Exceções (`try-except` e `if`)
+## Booleanos (`bool`)
+
+16. **Operação AND:** Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+17. **Operação OR:** Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+18. **Inversão (NOT):** Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+19. **Igualdade:** Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+20. **Diferença:** Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
+---
+
+## Exercícios de Lógica e Tratamento de Exceções
 
 ### Exercício 21: Conversor de Temperatura
 Escreva um programa que converta a temperatura de Celsius para Fahrenheit. O programa deve solicitar ao usuário a temperatura em Celsius e, utilizando `try-except`, garantir que a entrada seja numérica, tratando qualquer `ValueError`. Imprima o resultado em Fahrenheit ou uma mensagem de erro se a entrada não for válida.
 
 ### Exercício 22: Verificador de Palíndromo
-Crie um programa que verifica se uma palavra ou frase é um palíndromo (lê-se igualmente de trás para frente, desconsiderando espaços e pontuações). Utilize `try-except` para garantir que a entrada seja uma string. Dica: Utilize a função `isinstance()` para verificar o tipo da entrada.
+Crie um programa que verifica se uma palavra ou frase é um palíndromo (lê-se igualmente de trás para frente, desconsiderando espaços e pontuações). Utilize `try-except` para garantir que a entrada seja uma string. 
+> **Dica:** Utilize a função `isinstance()` para verificar o tipo da entrada.
 
 ### Exercício 23: Calculadora Simples
-Desenvolva uma calculadora simples que aceite duas entradas numéricas e um operador (+, -, *, /) do usuário. Use `try-except` para lidar com divisões por zero e entradas não numéricas. Utilize `if-elif-else` para realizar a operação matemática baseada no operador fornecido. Imprima o resultado ou uma mensagem de erro apropriada.
+Desenvolva uma calculadora simples que aceite duas entradas numéricas e um operador (`+`, `-`, `*`, `/`) do usuário. Use `try-except` para lidar com divisões por zero e entradas não numéricas. Utilize `if-elif-else` para realizar a operação matemática baseada no operador fornecido. Imprima o resultado ou uma mensagem de erro apropriada.
 
 ### Exercício 24: Classificador de Números
 Escreva um programa que solicite ao usuário para digitar um número. Utilize `try-except` para assegurar que a entrada seja numérica e utilize `if-elif-else` para classificar o número como "positivo", "negativo" ou "zero". Adicionalmente, identifique se o número é "par" ou "ímpar".
